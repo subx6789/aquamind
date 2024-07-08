@@ -37,8 +37,8 @@ function App() {
   };
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
     window.location.reload();
+    setDarkMode(!darkMode);
   };
 
   return (
