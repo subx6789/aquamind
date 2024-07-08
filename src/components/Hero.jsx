@@ -28,7 +28,7 @@ export default function Hero({ func }) {
             <img
               src="https://images.unsplash.com/photo-1503536882745-fa1ce53c4928?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTUyODh8MHwxfHNlYXJjaHwyMHx8Y2xlYW4lMjB3YXRlcnxlbnwwfDB8fHwxNzIwMzY2NDI5fDA&ixlib=rb-4.0.3&q=80&w=1080"
               alt="Clean water glass"
-              className="w-full h-full object-cover"
+              className="w-full h-full shadow-md object-cover"
             />
           </div>
         </div>
@@ -36,10 +36,10 @@ export default function Hero({ func }) {
             fadeIn ? "translate-x-0" : "translate-x-96"
           }`}
           ref={ref}>
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-800  dark:text-white mb-4">
             Empowering Communities with Clean Water
           </h1>
-          <p className="text-lg text-gray-600 mb-6">
+          <p className="text-lg text-gray-600  dark:text-gray-400 mb-6">
             Join us in our mission to provide clean and safe water solutions to
             rural areas. Share your water challenges and be part of the change.
           </p>

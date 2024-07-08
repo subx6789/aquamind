@@ -48,7 +48,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div id="contactus" className="bg-teal-900 text-white py-16">
+    <div id="contactus" className="bg-teal-900 dark:bg-yellow-400 text-white dark:text-slate-950 py-16">
       {!submit ? (
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
