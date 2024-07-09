@@ -173,13 +173,13 @@ export default function ContactUs() {
         </div>
       ) : (
         <div className="flex flex-col items-center gap-4">
-          <h1 className="lg:text-4xl sm:text-3xl md:text-4xl font-bold">
+          <h1 className="lg:text-4xl sm:text-3xl md:text-4xl font-bold text-white dark:text-slate-950">
             Your form submitted successfully.
           </h1>
-          <h3 className="font-medium text-gray-300 text-lg">
+          <h3 className="font-medium text-gray-300 dark:text-slate-900 text-lg">
             Our team will reach out to you shortly.
           </h3>
-          <p className="font-semibold text-sm text-gray-400">Thank you.</p>
+          <p className="font-semibold text-sm text-gray-400 dark:text-slate-800">Thank you.</p>
         </div>
       )}
     </div>
